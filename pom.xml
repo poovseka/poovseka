@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>com.poovseka</groupId>
 	<artifactId>spring-boot-crud</artifactId>
+	  <packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-crud</name>
 	<description>spring boot crud app</description>
