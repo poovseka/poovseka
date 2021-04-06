@@ -20,6 +20,10 @@ public class BooksController {
 	@Autowired
 	BooksService booksService;
 
+	@GetMapping("/welcome/{name}")
+	public String welcome(@PathVariable("name") String name){
+		return "welcome"+" "+name;
+	}
 	@GetMapping("/books")
 	private List<Books> getAllBooks() {
 		return booksService.getAllBooks();
